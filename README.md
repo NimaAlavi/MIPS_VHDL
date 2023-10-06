@@ -42,4 +42,4 @@ For an example use this assembly code:
 
 the result after a while:
 
-![alt text](test/Result.png)
+![alt text](test/Result.svg)
