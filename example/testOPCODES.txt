@@ -1,0 +1,26 @@
+func   rd     rs     rt_or_Imm
+addi   $a0,   $zero, #5		
+addi   $a1,   $zero, #9		
+add    $t0,   $a0,   $a1	
+addu   $t1,   $a0,   $a1	
+addi   $a2,   $zero, #10	
+and    $t2,   $a0,   $a2	
+nor    $t3,   $a0,   $a2	
+or     $t4,   $a0,   $a2	
+addi   $a3,   $zero, #3		
+sub    $t5,   $a3,   $a2	
+subu   $t6,   $a3,   $a2	
+xor    $t7,   $a0,   $a2	
+andi   $s0,   $a0,   #7		
+ori    $s1,   $a0,   #2		
+xori   $s2,   $a0,   #3		
+slt    $s3,   $a0,   $a1	
+sltu   $s4,   $a0,   $a1	
+slti   $s5,   $a0,   #2		
+sltiu  $s6,   $a0,   #6		
+sw     $t7,   $zero, #40	
+lw     $s7,   $zero, #40	
+multu  $t1,   $t4
+mfhi   $t8
+mflo   $t9
+lui    $k0,   #1	

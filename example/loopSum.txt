@@ -1,0 +1,16 @@
+func	rd	rs	rt_or_Imm
+addi	$t0,	$zero,	#10
+addi	$t1,	$zero,	#0
+addi	$t2,	$zero,	#0
+nop
+addi	$t1,	$t1,	#1
+add	$t2,	$t2,	$t1
+beq	$t0,	$t1,	#2
+nop
+j	#4
+nop
+sw	$t2,	$zero,	#40
+nop
+addi	$t3,	$zero,	#5
+lw	$t4,	$zero,	#40
+sub	$t5,	$t4,	$t3
