@@ -8,13 +8,13 @@ In this project the module can detect:
 
 In total you can write an assembly text file(.txt) which contains upper orders, then use matlab function for implementing machine code that would be read by registerFile and configure the Ram Memory.
 
-There is 2 example of assembly code in [example](MIPS_VHDL/MIPS_VHDL/example) folder. 
+There is 2 example of assembly code in [example](example) folder. 
 ## Matlab
-In this section as I mentioned, we want to creat machine code from assembly code. So we need a dictionary file to map each text word into its machine code ([asmDecoder.m](MIPS_VHDL/MIPS_VHDL/matlab/asmDecoder.m)) and finally use [asmTest.m](MIPS_VHDL/MIPS_VHDL/matlab/asmTest.m) to merge the machine codes.
+In this section as I mentioned, we want to creat machine code from assembly code. So we need a dictionary file to map each text word into its machine code ([asmDecoder.m](matlab/asmDecoder.m)) and finally use [asmTest.m](matlab/asmTest.m) to merge the machine codes.
 ## VHDL
 The whole architecture of MIPS algorithm is:
 
-![alt text](MIPS_VHDL/MIPS_VHDL/schematics/architecture.png)
+![alt text](schematics/architecture.png)
 
 by using this image the project would be more understandable.
 
@@ -38,8 +38,8 @@ by using this image the project would be more understandable.
 ## Testing
 For an example use this assembly code:
 
-![alt text](MIPS_VHDL/MIPS_VHDL/test/assemblyCode.png)
+![alt text](test/assemblyCode.png)
 
 the result after a while:
 
-![alt text](MIPS_VHDL/MIPS_VHDL/test/Result.png)
+![alt text](test/Result.png)
